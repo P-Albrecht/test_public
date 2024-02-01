@@ -23,17 +23,8 @@ export class AppComponent {
 
   onClickMe() {
     let t = (<HTMLInputElement>document.getElementById('interaction')).value
-    this.flaskapiService.blank(t)
-      .subscribe(
-        (response) => {
-          console.log(response)
-          this.text = response.data
-        },
-        (error) => {
-          console.log('oops', error)
-          this.text = 'ERROR'
-        }
-      );
+    console.log(t)
+
   }
 }
 

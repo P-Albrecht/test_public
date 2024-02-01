@@ -7,11 +7,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { FlaskapiService } from "./flaskapi.service";
+import { EnviromentComponent } from './enviroment/enviroment.component';
+import { ElementComponent } from './element/element.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    EnviromentComponent,
+    ElementComponent,
   ],
   imports: [
     BrowserModule,
