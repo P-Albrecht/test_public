@@ -8,3 +8,7 @@ import { Component } from '@angular/core';
 export class ElementComponent {
 
 }
+
+function xxx () {
+  console.log('test')
+}
