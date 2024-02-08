@@ -1,6 +1,8 @@
 
 .enviroment-container {
-  background: grey;
-  height: 200px;
-  width: 200px;
+
+  margin: 100px;
+  border: 2px slategray solid;
+  height: 500px;
+  width: 500px;
 }
