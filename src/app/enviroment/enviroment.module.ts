@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { EnviromentComponent } from './enviroment.component';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -8,6 +9,7 @@ import { CommonModule } from '@angular/common';
   ],
   imports: [
     CommonModule,
+    FormsModule
   ],
   exports: [
     EnviromentComponent,
