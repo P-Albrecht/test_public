@@ -10,8 +10,8 @@ import { FlaskapiService } from './flaskapi.service';
 })
 export class AppComponent {
 
-  routeList:string[][] = [                                                                                                    //!!!
-  ]       
+  routeList:string[][] = [
+  ]
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute, private http: HttpClient, private flaskapiService: FlaskapiService) {
   }
