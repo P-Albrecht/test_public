@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {NavigationError, Router} from '@angular/router';
+import { NavigationError, Router } from '@angular/router';
 
 @Component({
   selector: 'app-enviroment',
