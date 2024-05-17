@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {NavigationError, Router} from '@angular/router';
 
 @Component({
   selector: 'app-enviroment',
@@ -7,7 +8,16 @@ import { Component } from '@angular/core';
 })
 export class EnviromentComponent {
 
-  constructor() {}
+  component = ''
+
+  constructor(private router: Router) {
+    this.component = router.url.split('/')[1]
+    router.events.subscribe((event) => {
+      if (event instanceof NavigationError) {
+        console.log(event.url)
+      }
+    });
+  }
 
   onClickMe() {
     console.log('...........')

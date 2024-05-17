@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { EnviromentComponent } from "./enviroment/enviroment.component";
 
 const routes: Routes = [
-    { path: 'enviroment/:id', component: EnviromentComponent },
-    { path: '', redirectTo: '/enviroment/11', pathMatch: 'full' },
+    { path: 'enviroment', component: EnviromentComponent },
+    { path: '', redirectTo: '/enviroment', pathMatch: 'full' },
   ];
 
 @NgModule({

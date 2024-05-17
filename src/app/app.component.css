@@ -30,3 +30,11 @@ nav a:hover {
   color: #ff0000;
   border-color: #ff0000;
 }
+
+.param {
+  width: 60px;
+}
+
+.inline {
+  display: inline
+}
