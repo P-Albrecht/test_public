@@ -20,7 +20,9 @@ import { EnviromentModule } from './enviroment/enviroment.module';
     HttpClientModule,
     EnviromentModule
   ],
-  providers: [FlaskapiService],
+  providers: [
+    FlaskapiService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
